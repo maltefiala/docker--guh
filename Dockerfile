@@ -1,5 +1,7 @@
 FROM debian:8
 
+MAINTAINER Enproduktion GmbH <n@produktion.io>
+
 COPY docker/apt/guh.list /etc/apt/sources.list.d/guh.list
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-key A1A19ED6
