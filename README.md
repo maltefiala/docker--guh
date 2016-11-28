@@ -4,8 +4,8 @@
 
 ```bash
 mkdir ~/.guh
-cp -r docker/config ~/.guh/
-cp -r docker/log ~/.guh/
+cp -r config ~/.guh/
+cp -r log ~/.guh/
 
 docker-compose up
 ```
